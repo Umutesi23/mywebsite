@@ -1,0 +1,115 @@
+:root {
+    --choc:#443326;
+    --char:#283846;
+    --grey:#546F82;
+    --car:#CA844F;
+    --azure:#9CD8FD;
+
+}
+
+
+.cWrapper{
+    margin-left: -1vw;
+     width:98.8vw;
+      height:30vw;
+      display: flex;
+      margin-top: 3vw;
+      
+}
+.inputC{
+    width: 50%;
+    height: inherit;
+    padding: 2vw;
+
+    
+}
+
+
+.inputPrompt{border-radius: 2%;
+    border-style:solid;
+    border-color: var(--azure);
+    border-width: 0.3vw;
+    width: 100%;
+    height:10%;
+    color:var(--azure);
+    text-align: center;
+    padding-top: 1vw;
+    font-weight: bolder;
+    font-size: 1.3vw;
+    text-shadow: 0.2vw 0.2vw var(--grey);
+
+}
+
+.mydetails{
+width: 45%;
+margin-left: 0.5vw;
+margin-bottom: 1.5vw;
+border-radius: 2%;
+    border-style:solid;
+    border-color: var(--azure);
+    border-width: 0.3vw;
+    background-color: var(--char);
+padding: 0.5vw;
+text-align: center;
+color: var(--azure);
+}
+
+.tarea{ border-radius: 2%;
+    border-style:solid;
+    border-color: var(--azure);
+    border-width: 0.3vw;
+    width: 100%;
+    background-color: var(--char);
+    color: var(--azure);
+height: fit-content;
+
+}
+
+.sbtn{
+font-weight: bolder;
+color: var(--char);
+background-color: var(--azure);
+height: auto;
+width: auto;
+border: none;
+border-radius: 20%;
+padding: 1.5vw;
+margin: 1vw auto 1vw 17vw;
+font-size: 1.5vw;
+}
+
+
+
+.socials{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+    padding-right: 6vw;
+
+}
+
+.linkIcons{
+    height: 100%;
+    width: 100%;
+
+}
+
+.linkprompt{
+    font-family: cursive;
+    font-style: italic;
+    margin: 10vw 3vw 3vw -25vw;
+height: fit-content;
+width: fit-content;
+font-size: 4vw;
+font-weight: bold;
+color: var(--azure);
+}
+
+a{
+    height: 5vw;
+    width: 5vw;
+    margin-left: 5vw;
+
+}
